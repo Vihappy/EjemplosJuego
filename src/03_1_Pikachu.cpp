@@ -59,7 +59,7 @@ int main()
 {
     sf::RenderWindow window(sf::VideoMode(800, 600), "DinoChrome");
 
-    Personaje pika(sf::Vector2f(400, 300), sf::Color::Red);
+    Personaje pika(sf::Vector2f(400, 300), sf::Color::Black);
 
     while (window.isOpen())
     {
